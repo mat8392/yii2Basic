@@ -27,7 +27,17 @@
 
 ### In config/web.php
 
+> use \yii\web\Request;
+
+> $baseUrl = str_replace('/web', '', (new Request)->getBaseUrl());
+
 > 'components' => [
+
+ >       'request' => [
+
+>            'baseUrl' => $baseUrl,
+
+>        ],
 
 >        'urlManager' => [
 
