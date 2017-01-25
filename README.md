@@ -33,7 +33,7 @@
 
 > 'components' => [
 
- >       'request' => [
+>       'request' => [
 
 >            'baseUrl' => $baseUrl,
 
